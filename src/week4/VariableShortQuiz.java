@@ -36,12 +36,10 @@ public class VariableShortQuiz {
 
         System.out.println("=============== Question 6 ===============");
 
-        /*
         System.out.print("Hello ");
         System.out.println("Cydeo");
         System.out.print("Welcome ");
         System.out.println("to Java");
-         */
 
         // Which of the following has the exact same output as the code statements above?
 

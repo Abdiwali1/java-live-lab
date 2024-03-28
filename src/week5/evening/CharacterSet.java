@@ -9,6 +9,9 @@ public class CharacterSet {
         System.out.println(getCharacterSet('Z', 'A'));
         System.out.println(getCharacterSet("lowercase"));
         System.out.println(getCharacterSet("digit"));
+
+        System.out.println(withOneLoop('a', 'z'));
+        System.out.println(withOneLoop('z', 'a'));
     }
 
     public static String getCharacterSet(char start, char end){ // 'A', 'Z'
@@ -25,6 +28,27 @@ public class CharacterSet {
         }
 
         return characters;
+    }
+
+    public static String withOneLoop (char start, char end){
+        String characters = "";
+
+        int updateVal;
+        int iterations;
+
+        if(start < end){
+            updateVal = 1;
+            iterations = end - start;
+        } else {
+            updateVal = -1;
+            iterations = start - end;
+        }
+
+        for(char letter = start, i = 0; i <= iterations; letter += updateVal, i++){
+            characters += letter;
+        }
+
+        return  characters;
     }
 
     public static String getCharacterSet(String group){ // uppercase

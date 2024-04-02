@@ -83,7 +83,6 @@ public class SelectionStatementsShortQuiz {
             System.out.println("Number is zero.");
         }
 
-
         System.out.println("=============== Question 11 ===============");
         System.out.println("Q: What is the purpose of a switch statement?\nA: To execute statements based on the value of a variable or expression.");
 
@@ -113,7 +112,6 @@ public class SelectionStatementsShortQuiz {
                 break;
         }
 
-
         System.out.println("=============== Question 14 ===============");
         System.out.println("Q: What is the requirement for case values in a switch statement?\nA: Case values must be unique and not have duplicates.");
 
@@ -126,7 +124,6 @@ public class SelectionStatementsShortQuiz {
                 " you should wait a bit.";
 
         System.out.println(information); //Can I vote in this election? unfortunately, you should wait a bit.
-
 
     }
 

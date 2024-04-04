@@ -7,7 +7,7 @@ public class LoopsAndMethodsShortQuiz {
 
         System.out.println("=============== Question 2 ===============");
 
-        int sum = 0;
+        int sum = 0; // 0 + 1 = 1 + 2 = 3 + 3 = 6 + 4 = 10 + 5 = 15
         for (int i = 1; i <= 5; i++) {
             sum += i;
         }
@@ -37,7 +37,7 @@ public class LoopsAndMethodsShortQuiz {
         for (int i = 0; i < 10; i++) {
             i += 1;
             System.out.println("Hello World!");
-        }
+        } // i = 0 + 1 updates 1 = 2 -> each iteration it is adding 2 _> 2, 4, 6, 8, 10
 
         System.out.println("=============== Question 7 ===============");
 
@@ -101,7 +101,7 @@ public class LoopsAndMethodsShortQuiz {
     }
 
     public static void changeValue(int num) {
-        num = 10;
+        num = 10; // updates the local variable
     }
 
     public static double addNumbers(int num1, int num2) {

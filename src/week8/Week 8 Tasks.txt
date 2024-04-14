@@ -1,0 +1,46 @@
+Week 8 Tasks: Array and ArrayList
+
+1. Write a program that identifies the unique elements in an array of Strings.
+		   Example:
+		      Input array: {"Java", "Python", "Python", "Ruby", "Ruby", "C#"}
+
+		   Output:
+		      Java
+		      C#
+
+2. CustomPrint [multidimensional, loop, String, method]
+
+     Create a method that will accept a 2D int array and return a String format of the array. Make your own custom print format for this 2D array instead of using the deepToString() method
+
+     Ex:    this is just an example. You can be creative for how the 2D array will be printed
+       int [][] nums = {
+                {3, 4, 5, 6},
+                {5, 2, 6},
+                {10, 40, 20}
+        };
+
+        output:
+            index 0 | (3)(4)(5)(6)
+            index 1 | (5)(2)(6)
+            index 3 | (10)(40)(20)
+
+3. Given an ArrayList of Strings named 'items', write a program that returns the frequency of each element.
+	   Example:
+	      Input list: {"Apple", "Banana", "Apple", "Cherry"}
+
+	   Output:
+	      Apple = 2
+	      Banana = 1
+	      Cherry = 1
+
+4. [IQ] Second Biggest Number [ArrayList, loop, conditional]
+
+    Create a program that will have an ArrayList of Integers. Find the second biggest number in the list.
+    Note: the 2nd biggest should be unique meaning it should be different from the max number
+
+Example:
+    Input:
+        [4,3,1,4,5,2,4,8,4,8]
+    Output:
+        5
+

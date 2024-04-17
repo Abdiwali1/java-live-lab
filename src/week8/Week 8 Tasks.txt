@@ -10,7 +10,8 @@ Week 8 Tasks: Array and ArrayList
 
 2. CustomPrint [multidimensional, loop, String, method]
 
-     Create a method that will accept a 2D int array and return a String format of the array. Make your own custom print format for this 2D array instead of using the deepToString() method
+     Create a method that will accept a 2D int array and return a String format of the array.
+     Make your own custom print format for this 2D array instead of using the deepToString() method
 
      Ex:    this is just an example. You can be creative for how the 2D array will be printed
        int [][] nums = {
@@ -22,7 +23,7 @@ Week 8 Tasks: Array and ArrayList
         output:
             index 0 | (3)(4)(5)(6)
             index 1 | (5)(2)(6)
-            index 3 | (10)(40)(20)
+            index 2 | (10)(40)(20)
 
 3. Given an ArrayList of Strings named 'items', write a program that returns the frequency of each element.
 	   Example:

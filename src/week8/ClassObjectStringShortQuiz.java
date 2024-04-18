@@ -43,7 +43,7 @@ public class ClassObjectStringShortQuiz {
         String secretWord = "cydeo";
 
         System.out.print("Enter a secret word: ");
-        String userGuess = "Cydeo";//scanner.nextLine();
+        String userGuess = "cydeo";//scanner.nextLine();
         scanner.close();
 
         boolean isCorrect = secretWord.equalsIgnoreCase(userGuess);
@@ -82,8 +82,14 @@ public class ClassObjectStringShortQuiz {
         String s1 = "abc";
         String s2 = "abc";
 
-        System.out.println("s1 == s2 is: " + s1 == s2);
+       // System.out.println(s1 == s2);
 
+        System.out.println("s1 == s2 is: " + s1 == s2);
+        System.out.println("s1 == s2 is: " + (s1 == s2));
+        System.out.println("s1 == s2 is: " + 5 + 4);
+        System.out.println("s1 == s2 is: " + (5 + 4));
+        //"s1 == s2 is: " + s1 => s1 == s2 is: abc
+        //  "s1 == s2 is: abc" == "abc"
 
     }
 }

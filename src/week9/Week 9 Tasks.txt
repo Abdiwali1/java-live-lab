@@ -1,0 +1,63 @@
+Week 9 Tasks:  Class & Object & Encapsulation
+
+
+1. Country [static, instance, class, object]
+
+    Create a class Country
+    define these static variables:
+        continent
+        world population - 7.88 billion - represent billions
+        world co2 level - 417.83 - represents the unit is ppm (parts per million)
+
+    define these instance variables:
+         name, population, continent
+
+    create a static block to initialize the static variables
+    create a constructor to initialize the instance variables
+    create a different class to test the Country objects and static variables
+
+2. Workout [Encapsulation, access modifiers, classes, objects, methods]
+
+    Create a class Workout
+    define and encapsulate these instance variables:
+        name, duration, calories burned
+
+    create a constructor to initialize the variables. Call the setters in the constructor
+
+    in the setters only set the values if they are valid data based on these requirements:
+        name: should have only letters and spaces, no other characters type. The name cannot be empty either
+
+        duration: should be more than 0
+
+        calories burned: should be more than 0 and less than 1000
+
+    create another class to test the Workout objects
+
+3. Hobby [classes, constructors, ArrayList]
+
+    create a class called Hobby
+        instance variables:
+            name, annual cost, is outdoors (boolean), requires others (boolean)
+
+        create these overloaded constructors to initialize all the instance variables:
+            - name
+            - name, annual cost
+            - name, annual cost, is outdoors, requires others
+
+        methods:
+            doIt():
+                print: Doing $name-of-hobby $outside-or-inside
+                    ex: new Hobby("golf", 1000, true, false).doIt() -> Doing golf outside
+                    ex: new Hobby("puzzles", 50, false, true).doIt() -> Doing puzzles inside
+
+            toString()
+                return all the Hobby information
+
+    Create a separate class to create and test the Hobby objects
+
+        - create an ArrayList of Hobby objects
+        - create and add Hobby objects
+        - iterate through the ArrayList and execute the doIt() method on each Hobby object
+        - create a copy ArrayList and remove all outdoors Hobbies
+        - create a copy ArrayList and remove all hobbies requiring other people
+        - create a copy ArrayList and remove all hobbies that cost more than $500 annually

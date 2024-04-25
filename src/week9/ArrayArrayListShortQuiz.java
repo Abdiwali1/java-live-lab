@@ -39,7 +39,7 @@ public class ArrayArrayListShortQuiz {
         System.out.println("=============== Question 8 ===============");
         System.out.println("Q: What will be the output of the following code fragment?");
 
-        int wd = 0;
+        int wd = 0; // 0 -1 0 2 4 3
         String[] days = {"Sun", "Mon", "Wed", "Sat"};
 
         for (int i = 0; i < days.length; i++) {
@@ -74,7 +74,7 @@ public class ArrayArrayListShortQuiz {
         System.out.println("=============== Question 12 ===============");
         System.out.println("Q: What will be the output of the following code fragment?");
 
-        ArrayList<String> colors = new ArrayList<>();
+        ArrayList<String> colors = new ArrayList<>(); // green, red, blue, cyan, yellow
         colors.add("green");
         colors.add("red");
         colors.add("blue");
@@ -100,7 +100,7 @@ public class ArrayArrayListShortQuiz {
 
         System.out.println("=============== Question 15 ===============");
         System.out.println("Q: What will be the output of the following code fragment?");
-        ArrayList<String> colors2 = new ArrayList<>();
+        ArrayList<String> colors2 = new ArrayList<>(); // yellow, blue
         colors2.add("Yellow");
         colors2.add("Red");
         colors2.add("Blue");

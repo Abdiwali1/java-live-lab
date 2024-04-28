@@ -1,0 +1,81 @@
+Week 10 Tasks: Inheritance
+
+----------------------------------------------------------------------------------------
+
+SuperHero [inheritance, overriding, constructors, super]
+
+    Create a class SuperHero
+
+        declare these instance variables:
+            super hero name, real name, universe, powers (ArrayList of String)
+            make the universe
+
+        create a constructor to initialize all the variables
+
+        create an instance method:
+            protect() - print $super_hero protecting
+
+        override the toString method
+
+    Create a class Marvel
+        inherits SuperHero
+        make Marvel
+
+        create a constructor to initialize all the variables by calling the super class constructor
+            set universe to "Marvel"
+
+        create a method callAvengers()
+            print: Calling all avengers
+
+        override the protect method()
+            print: super_hero protecting by any means necessary
+
+    Create a class DC
+        inherits SuperHero
+        make DC
+
+        declare an instance variable: city
+
+        create a constructor to initialize all the variables by calling the super class constructor
+            set universe to "DC"
+
+        override the protect method()
+            print: super_hero protecting with honor
+
+    Create a class CheckHeros
+    create a main method
+    create Marvel and DC objects and test the variables and methods
+
+    data:
+    spider man, peter parker, Marvel, powers: Enhanced strength, agility, and spider-sense
+    iron man, tony stark, Marvel, powers: powered suit of armor, flight, enhanced strength
+    thor, thor odinson, Marvel, powers: wields hammer, controls lightning, flight
+    wonder woman, diana prince, DC, powers: Enhanced strength, speed, agility, durability
+    batman, bruce wayne, DC, powers: master detective, martial arts, technical tools
+    superman, clark kent, DC, powers: super strength, speed, invulnerability, flight
+
+----------------------------------------------------------------------------------------
+
+Perfect Square [IQ - Amazon]
+
+    Check if the given number is a perfect square. A perfect square is a number that is the result of a number being squared. Squaring a number is multiplying the number itself
+
+    2 squared = 2 * 2 = 4
+    5 squared = 5 * 5 = 25
+
+    Ex:
+        input:
+            49
+        output:
+            true
+                7 * 7 gives 49, because the numbers multiplied together are the same 49 is a perfect square
+
+        input:
+            85
+        output:
+            false
+                9 * 9 is 81 and 10 * 10 is 100 so 85 is not a perfect square because a number cannot be squared to get that result
+
+----------------------------------------------------------------------------------------
+
+Any extra time can be used to review java or git questions

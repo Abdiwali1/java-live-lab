@@ -8,7 +8,7 @@ SuperHero [inheritance, overriding, constructors, super]
 
         declare these instance variables:
             super hero name, real name, universe, powers (ArrayList of String)
-            make the universe
+            make the universe ( universe is referring who makes the movie)
 
         create a constructor to initialize all the variables
 

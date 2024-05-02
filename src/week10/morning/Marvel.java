@@ -1,11 +1,11 @@
-package week10;
+package week10.morning;
 
 import java.util.*;
 
 public class Marvel extends SuperHero {
 
     public Marvel(String superHeroName, String realName, String universe, ArrayList<String> powers) {
-        super(superHeroName, realName, "Marvel", powers);
+        super(superHeroName, realName, "MarvelHero", powers);
     }
 
     public void callAvengers(){

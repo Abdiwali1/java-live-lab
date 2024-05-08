@@ -1,4 +1,4 @@
-package week10;
+package week10.morning;
 
 import java.util.*;
 
@@ -13,9 +13,9 @@ public class CheckHeros {
         ArrayList<String> batmanPowers = new ArrayList<>(Arrays.asList("master detective", "martial arts", "technical tools"));
         ArrayList<String> superManPowers = new ArrayList<>(Arrays.asList("super strength", "speed", "invulnerability", "flight"));
 
-        Marvel spiderMan = new Marvel("Spider-Man", "Peter Parker", "Marvel", spiderPowers);
-        Marvel ironMan = new Marvel("Iron Man", "Tony Stark", "Marvel", ironManPowers);
-        Marvel thor = new Marvel("Thor", "Thor Odinson", "Marvel", thorPowers);
+        Marvel spiderMan = new Marvel("Spider-Man", "Peter Parker", "MarvelHero", spiderPowers);
+        Marvel ironMan = new Marvel("Iron Man", "Tony Stark", "MarvelHero", ironManPowers);
+        Marvel thor = new Marvel("Thor", "Thor Odinson", "MarvelHero", thorPowers);
         DC wonderWoman = new DC("Wonder Woman", "Diana Prince", "DC", wonderWomanPowers, "Gotham");
         DC batman = new DC("Batman", "Bruce Wayne", "DC", batmanPowers, "Gotham");
         DC superman = new DC("Superman", "Clark Kent", "DC", superManPowers, "Gotham");

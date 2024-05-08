@@ -69,6 +69,7 @@ Movie Part 2 [abstraction, polymorphism, final, classes, objects, ArrayList]
                 subscription is the cheapest
                 or has the most number of movies
 
-        create a List of Cinema in your area. A new movie came out, and you want to support it, so you buy a ticket for that movie from every Cinema in your area.
+        create a List of Cinema in your area. A new movie came out, and you want to support it,
+        so you buy a ticket for that movie from every Cinema in your area.
 
 	------------------------------------------------------------------------

@@ -50,4 +50,7 @@ public final class Cinema implements PlayMovie {
                 ", listOfMovies=" + listOfMovies +
                 '}';
     }
+
+
+
 }

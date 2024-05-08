@@ -62,6 +62,7 @@ Perfect Square [IQ - Amazon]
 
     2 squared = 2 * 2 = 4
     5 squared = 5 * 5 = 25
+    9 squared = 9 * 9 = 81
 
     Ex:
         input:

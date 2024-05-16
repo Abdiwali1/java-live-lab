@@ -68,22 +68,18 @@ public class AbstractionAndPolymorphismQuiz {
             public int salary;
         }
 
-
         public class Manager extends Employee{
             public int budget;
         }
-
 
         public class Director extends Manager{
             public int stockOptions;
         }
 
-
         public class Test{
             public static void main(String[] args) {
                 Manager employee = new Director();
                 // line 1
-
             }
         }
         */
@@ -102,7 +98,6 @@ public class AbstractionAndPolymorphismQuiz {
             public abstract void draw();
         }
 
-
         public class Square extends Shape{
             @Override
             public void draw() {
@@ -110,14 +105,12 @@ public class AbstractionAndPolymorphismQuiz {
             }
         }
 
-
         public class Circle extends Shape{
             @Override
             public void draw() {
                 System.out.println("Drawing a circle");
             }
         }
-
 
         public class Test{
             public static void main(String[] args) {

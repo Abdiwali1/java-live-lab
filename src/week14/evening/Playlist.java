@@ -29,6 +29,7 @@ public class Playlist {
         for(Song eachSong : songs.values()){
             System.out.println(eachSong);
         }
+        System.out.println();
     }
 
     public String getName() {
